@@ -17,6 +17,7 @@ h1, h2, h3 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 32px;
 }
 
 h1 {
@@ -24,13 +25,125 @@ h1 {
   font-weight: bold;
   line-height: 42px;
   letter-spacing: -0.36px;
+  margin: 24px 0 32px 0;
 }
 
 a {
   align-self: flex-start;
 }
 
-/* Bootstrap Styles */
+button {
+  text-transform: uppercase;
+  font-weight: 100;
+}
+
+.about-btn {
+  background-color: #203A4C;
+  color: white;
+  font-size: 12px;
+  letter-spacing: 2px;
+  border: none;
+  margin-bottom: 96px;
+}
+
+.down-arrow {
+  padding: 17px;
+  background-color: #1d3445;
+}
+
+.about-me-btn-txt {
+  padding: 0 36px;
+}
+
+.alex-img {
+  margin-bottom: 32px;
+}
+
+.about-header {
+  padding-top: 32px;
+  border-top: 1px solid #979797;
+  font-size: 42px;
+  align-self: stretch;
+}
+
+.about-p {
+  margin-top: 28px;
+  letter-spacing: 0px;
+  line-height: 30px;
+  color: #33323D;
+  margin-bottom: 24px;
+}
+
+.portfolio-btn {
+  padding: 17px 36px;
+  border: 1px solid black;
+  background-color: white;
+  font-weight: 300;
+}
+
+.interested-sec {
+  border-top: 1px solid #979797;
+  padding-top: 115px;
+  text-align: center;
+  font-size: 42px;
+  margin-bottom: 40px;
+}
+
+.contact-a {
+  align-self: center;
+  margin-bottom: 80px;
+}
+
+footer {
+  background-color: #33323D;
+}
+
+footer div a {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 200;
+  align-self: center;
+}
+
+.logo {
+  filter: invert(100%) sepia(0%) saturate(2%) hue-rotate(67deg) brightness(104%) contrast(101%);
+}
+
+.home-a {
+  margin-top: 40px;
+}
+
+.portfolio-a {
+  margin: 32px 0;
+}
+
+.social-div {
+  margin-top: 40px;
+}
+
+.social {
+  margin-right: 2.25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------- Bootstrap Styles ---------- */
 .bg-body-tertiary {
   background-color: white !important;
 }
