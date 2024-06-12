@@ -156,6 +156,10 @@ footer div a {
   border: none;
 }
 
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
 .nav-link {
   background-color: #33323d;
   color: white !important;
