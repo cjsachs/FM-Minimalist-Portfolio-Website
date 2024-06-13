@@ -17,7 +17,7 @@ h1, h2, h3 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 32px;
+  padding: 0 32px 24px 32px;
   padding-top: 0;
 }
 
@@ -130,6 +130,47 @@ footer div a {
 
 .social {
   margin-right: 2.25px;
+}
+
+.tech-used {
+  align-self: flex-start;
+  font-size: 13px;
+  font-weight: 700;
+  color: #5FB4A2;
+}
+
+.project-background-p {
+  font-size: 32px;
+  font-weight: 500;
+  align-self: flex-start;
+}
+
+.project-container {
+  margin-top: 32px;
+}
+
+.project {
+  padding: 24px 0;
+}
+
+.project h2 {
+  margin: 16px 0;
+}
+
+.project p {
+  color: #97969c;
+  margin: 0;
+}
+
+.prev {
+  border-top: 1px solid #c7c8c9;
+  border-bottom: 1px solid #c7c8c9;
+  border-right: 1px solid #c7c8c9;
+}
+
+.next {
+  border-top: 1px solid #c7c8c9;
+  border-bottom: 1px solid #c7c8c9;
 }
 
 

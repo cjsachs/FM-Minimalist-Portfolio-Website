@@ -17,6 +17,8 @@
       crossorigin="anonymous"
     />
 
+    <link rel="stylesheet" href="styles.css">
+
     <title>Frontend Mentor | Manage Project</title>
   </head>
   <body>
@@ -41,7 +43,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#" id="home-link">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#"
@@ -49,7 +51,7 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
+                <a id="contact-link" class="nav-link active" aria-current="page" href="#"
                   >Contact Me</a
                 >
               </li>
@@ -59,26 +61,29 @@
       </nav>
     </header>
     <main>
+      <div class="container flex">
       <img
         src="./images/detail/mobile/image-manage-hero.jpg"
         alt="manage image"
       />
-      <div class="container">
-        <h1>Manage</h1>
-        <p>
+      <hr class="w-100">
+        <h2 class="about-header">Manage</h2>
+        <p class="about-p">
           This project required me to build a fully responsive landing page to
           the designs provided. I used HTML5, along with CSS Grid and JavaScript
           for the areas that required interactivity, such as the testimonial
           slider.
         </p>
-        <p>Interaction Design / Front End Development HTML / CSS / JS</p>
+        <p class="tech-used">Interaction Design / Front End Development</p>
+        <p class="tech-used">HTML / CSS / JS</p>
         <a href="#">
-          <button>Visit Website</button>
+          <button class="portfolio-btn">Visit Website</button>
         </a>
+        <hr class="w-100">
       </div>
-      <div class="container">
-        <h2>Project Background</h2>
-        <p>
+      <div class="container flex">
+        <h2 class="project-background-p mt-0">Project Background</h2>
+        <p class="about-p project-font mt-0">
           This project was a front-end challenge from Frontend Mentor. It's a
           platform that enables you to practice building websites to a design
           and project brief. Each challenge includes mobile and desktop designs
@@ -87,45 +92,45 @@
           real-world coding problems. I've learned something new with each
           project, helping me to improve and adapt my style.
         </p>
-        <div>
-          <h2>Static Previews</h2>
-          <img src="./images/detail/mobile/image-manage-preview-1.jpg" alt="manage-preview1">
+        <div class="flex">
+          <h2 class="project-background-p">Static Previews</h2>
+          <img class="mb-4" src="./images/detail/mobile/image-manage-preview-1.jpg" alt="manage-preview1">
           <img src="./images/detail/mobile/image-manage-preview-2.jpg" alt="manage-preview2">
         </div>
       </div>
-      <div>
-        <div>
-          <a href="#">
-            <img src="./images/icons/arrow-left.svg" alt="arrow left">
-          </a>
-          <h2>Fylo</h2>
-          <p>Previous Project</p>
-        </div>
-        <div>
-          <a href="#">
-            <img src="./images/icons/arrow-right.svg" alt="arrow right">
-          </a>
-          <h2>Bookmark</h2>
-          <p>Next Project</p>
-        </div>
+      <div class="container flex flex-row project-container">
+          <div class="prev project w-50">
+            <a href="#">
+              <img src="./images/icons/arrow-left.svg" alt="arrow left">
+            </a>
+            <h2 class="project-background-p mb-0">Fylo</h2>
+            <p>Previous Project</p>
+          </div>
+          <div class="next project w-50 flex">
+            <a href="#" class="align-self-end">
+              <img src="./images/icons/arrow-right.svg" alt="arrow right">
+            </a>
+            <h2 class="project-background-p align-self-end mb-0">Bookmark</h2>
+            <p class="align-self-end">Next Project</p>
+          </div>
       </div>
-      <div>
-        <h2>Interested in doing a project together?</h2>
-        <a href="#">
-          <button>Contact Me</button>
+      <div class="container flex">
+        <h2 class="interested-sec">Interested in doing a project together?</h2>
+        <a class="contact-a" href="#">
+          <button class="portfolio-btn">Contact Me</button>
         </a>
       </div>
     </main>
     <footer>
-      <div>
-        <img src="./images/logo.svg" alt="logo">
-        <a href="#">Home</a>
-        <a href="#">Portfolio</a>
+      <div class="container flex">
+        <img class="logo main" src="./images/logo.svg" alt="logo" />
+        <a class="home-a" href="#">Home</a>
+        <a class="portfolio-a" href="#">Portfolio</a>
         <a href="#">Contact Me</a>
-        <div>
-          <img src="./images/icons/github.svg" alt="github logo">
-          <img src="./images/icons/twitter.svg" alt="twitter logo">
-          <img src="./images/icons/linkedin.svg" alt="linkedin logo">
+        <div class="social-div">
+          <img class="logo social" src="./images/icons/github.svg" alt="github logo" />
+          <img class="logo social" src="./images/icons/twitter.svg" alt="twitter logo" />
+          <img class="logo" src="./images/icons/linkedin.svg" alt="linkedin logo" />
         </div>
       </div>
     </footer>
