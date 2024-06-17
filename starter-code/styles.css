@@ -56,6 +56,14 @@ hr {
   background-color: #1d3445;
 }
 
+.home-pic {
+  content: url(./images/homepage/mobile/image-homepage-hero@2x.jpg);
+}
+
+.alex-img {
+  content: url(./images/homepage/mobile/image-homepage-profile@2x.jpg);
+}
+
 .about-me-btn-txt {
   padding: 0 36px;
 }
@@ -204,17 +212,6 @@ form, .form-div input, .form-div textarea {
   margin-bottom: 80px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 /* ----------- Bootstrap Styles ---------- */
 .bg-body-tertiary {
   background-color: white !important;
@@ -297,4 +294,97 @@ form, .form-div input, .form-div textarea {
 
 .navbar-toggler:not(.collapsed) .navbar-toggler-icon::after {
   transform: rotate(-90deg) translateX(7px);
+}
+
+
+
+
+
+
+/* Tablet Layout */
+@media (min-width: 768px) {
+  header {
+    margin: 0 24px;
+  }
+  .nav-link {
+    background-color: white;
+    color: #33323D!important;
+    padding: 0;
+    margin: 0;
+    display: inline;
+    font-weight: 400;
+    letter-spacing: 2px;
+  }
+
+  #home-link, #portfolio-link {
+    padding: 0;
+    margin-right: 42px;
+  }
+
+  #contact-link {
+    padding: 0;
+  }
+
+  .navbar-collapse {
+    flex-grow: 0;
+  }
+
+  .home-pic {
+    content: url(./images/homepage/tablet/image-homepage-hero.jpg);
+  }
+
+  .greeting-container {
+    position: relative;
+    margin-bottom: 96px;
+  } 
+
+  .greeting-container div {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    width: 514px;
+  }
+
+  h1, .about-btn {
+    margin: 0;
+  }
+
+  h1 {
+    padding: 42px 56px 48px 0;
+  }
+
+  .sub-container {
+    display: flex;
+  }
+
+  .about-me-container {
+    margin-left: 69px;
+  }
+
+  .about-header {
+    margin-top: 50px;
+  }
+
+  .interested-container {
+    flex-direction: row;
+  }
+
+  .optional-hr {
+    width: 180px;
+    margin-right: 32px;
+  }
+
+  hr, .contact-a, .portfolio-btn {
+    margin: 0;
+  }
+
+  .interested-sec {
+    text-align: start;
+  }
+  
+  .alex-img {
+    content: url(./images/homepage/tablet/image-homepage-profile@2x.jpg);
+    width: 40%!important;
+  }
 }

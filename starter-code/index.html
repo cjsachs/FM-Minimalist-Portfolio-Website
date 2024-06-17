@@ -21,7 +21,7 @@
   <body>
     <header>
       <!-- Navigation Bar -->
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <nav class="navbar navbar-expand-md bg-body-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <img src="./images/logo.svg" alt="logo" />
@@ -43,7 +43,7 @@
                 <a class="nav-link active" aria-current="page" href="./index.html" id="home-link">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./portfolio.html"
+                <a class="nav-link active" aria-current="page" href="./portfolio.html" id="portfolio-link"
                   >Portfolio</a
                 >
               </li>
@@ -58,41 +58,50 @@
       </nav>
     </header>
     <main>
-      <div class="container flex">
-        <img
-          src="./images/homepage/mobile/image-homepage-hero.jpg"
-          alt="homepage image"
-          class="w-100"
-        />
-        <h1>Hey, I'm Alex Spencer and I love building beautiful websites</h1>
-        <a href="#alex-img">
-          <button class="about-btn"><img src="./images/icons/down-arrows.svg" class="down-arrow" alt="down-arrows"/><span class="about-me-btn-txt">About Me</span></button>
-        </a>
-        <img
-          src="./images/homepage/mobile/image-homepage-profile.jpg"
-          alt="alex-spencer"
-          class="alex-img w-100"
-          id="alex-img"
-        />
-        <hr class="w-100">
-        <h2 class="about-header">About Me</h2>
-        <p class="about-p">
-          I'm a junior front-end developer looking for a new role in an exciting
-          company. I focus on writing accessible HTML, using modern CSS
-          practices and writing clean JavaScript. When writing JavaScript code,
-          I mostly use React, but I can adapt to whatever tools are required.
-          I'm based in London, UK, but I'm happy working remotely and have
-          experience in remote teams. When I'm not coding, you'll find me
-          outdoors. I love being out in nature whether that's going for a walk,
-          run or cycling. I'd love you to check out my work.
-        </p>
-        <a href="./portfolio.html">
-          <button class="portfolio-btn">Go to Portfolio</button>
-        </a>
+      <div class="container-fluid flex">
+        <div class="greeting-container">
+          <img
+            src="./images/homepage/mobile/image-homepage-hero.jpg"
+            alt="homepage image"
+            class="w-100 home-pic"
+          />
+          <div>
+            <h1>Hey, I'm Alex Spencer and I love building beautiful websites</h1>
+            <a href="#alex-img">
+              <button class="about-btn"><img src="./images/icons/down-arrows.svg" class="down-arrow" alt="down-arrows"/><span class="about-me-btn-txt">About Me</span></button>
+            </a>
+          </div>
+        </div>
+        <div class="sub-container">
+          <img
+            src="./images/homepage/mobile/image-homepage-profile.jpg"
+            alt="alex-spencer"
+            class="alex-img w-100"
+            id="alex-img"
+          />
+          <div class="about-me-container">
+            <hr class="w-100">
+            <h2 class="about-header">About Me</h2>
+            <p class="about-p">
+              I'm a junior front-end developer looking for a new role in an exciting
+              company. I focus on writing accessible HTML, using modern CSS
+              practices and writing clean JavaScript. When writing JavaScript code,
+              I mostly use React, but I can adapt to whatever tools are required.
+              I'm based in London, UK, but I'm happy working remotely and have
+              experience in remote teams. When I'm not coding, you'll find me
+              outdoors. I love being out in nature whether that's going for a walk,
+              run or cycling. I'd love you to check out my work.
+            </p>
+            <a href="./portfolio.html">
+              <button class="portfolio-btn">Go to Portfolio</button>
+            </a>
+            <hr class="w-100">
+          </div>
+        </div>
       </div>
-      <div class="container flex">
-        <hr class="w-100">
+      <div class="container-fluid flex interested-container">
         <h2 class="interested-sec">Interested in doing a project together?</h2>
+        <hr class="optional-hr">
         <a class="contact-a" href="./contact.html">
           <button class="portfolio-btn">Contact Me</button>
         </a>
