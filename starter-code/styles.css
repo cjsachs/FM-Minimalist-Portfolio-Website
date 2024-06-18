@@ -363,7 +363,7 @@ form, .form-div input, .form-div textarea {
   }
 
   .about-header {
-    margin-top: 50px;
+    margin-top: 40px;
   }
 
   .interested-container {
@@ -372,7 +372,7 @@ form, .form-div input, .form-div textarea {
 
   .optional-hr {
     width: 180px;
-    margin-right: 32px;
+    margin: 0 32px;
   }
 
   hr, .contact-a, .portfolio-btn {
@@ -381,10 +381,55 @@ form, .form-div input, .form-div textarea {
 
   .interested-sec {
     text-align: start;
+    font-size: 40px;
+  }
+
+  .portfolio-btn {
+    margin-bottom: 40px;
+    font-size: 12px;
   }
   
   .alex-img {
     content: url(./images/homepage/tablet/image-homepage-profile@2x.jpg);
     width: 40%!important;
+  }
+
+  .contact-me {
+    margin: 0;
+    width: 162px;
+  }
+
+  footer .flex {
+    flex-direction: row;
+    padding: 28px 16px
+  }
+
+  .social-div {
+    margin-left: auto;
+    margin-top: 0;
+  }
+
+  .logo, .social, .home-a, .portfolio-a {
+    margin: 0;
+  }
+
+  .home-a {
+    margin-left: 48px;
+  }
+
+  .home-a, .portfolio-a {
+    margin-right: 42px;
+  }
+
+  .row-flex {
+    flex-direction: row;
+  }
+
+  .reverse-flex {
+    flex-direction: row-reverse;
+  }
+
+  .manage-img {
+    content: url(./images/portfolio/tablet/image-portfolio-manage.jpg);
   }
 }

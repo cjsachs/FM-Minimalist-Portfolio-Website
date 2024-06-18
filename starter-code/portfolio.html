@@ -17,7 +17,7 @@
 <body>
   <header>
     <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-md bg-body-tertiary">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img src="./images/logo.svg" alt="logo" />
@@ -39,7 +39,8 @@
               <a class="nav-link active" aria-current="page" href="./index.html" id="home-link">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="./portfolio.html"
+              <a class="nav-link active"
+              id="portfolio-link" aria-current="page" href="./portfolio.html"
                 >Portfolio</a
               >
             </li>
@@ -54,65 +55,85 @@
     </nav>
   </header>
   <main>
-    <div class="container flex">
-      <img
-        src="./images/portfolio/mobile/image-portfolio-manage.jpg"
-        alt="manage image"
+    <div class="container flex row-flex">
+      <div>
+        <img
+          class="manage-img"
+          src="./images/portfolio/mobile/image-portfolio-manage.jpg"
+          alt="manage image"
+        />
+      </div>
+      <div>
+        <hr class="w-100">
+        <h2 class="about-header">Manage</h2>
+        <p class="about-p project-font">This project required me to build a fully responsive landing page to the designs 
+          provided. I used HTML5, along with CSS Grid and JavaScript for the areas that 
+          required interactivity, such as the testimonial slider.</p>
+        <a href="./manage.html">
+          <button class="portfolio-btn">View Project</button>
+        </a>
+        <hr class="w-100">
+      </div>
+    </div>
+    <div class="container flex reverse-flex">
+      <div>
+        <img
+        class="bookmark-img"
+        src="./images/portfolio/mobile/image-portfolio-bookmark.jpg"
+        alt="bookmark image"
       />
-      <hr class="w-100">
-      <h2 class="about-header">Manage</h2>
-      <p class="about-p project-font">This project required me to build a fully responsive landing page to the designs 
-        provided. I used HTML5, along with CSS Grid and JavaScript for the areas that 
-        required interactivity, such as the testimonial slider.</p>
-      <a href="./manage.html">
-        <button class="portfolio-btn">View Project</button>
-      </a>
-      <hr class="w-100">
+      </div>
+      <div>
+        <hr class="w-100">
+        <h2 class="about-header">Bookmark</h2>
+        <p class="about-p project-font">This project required me to build a fully responsive landing page to the designs provided. I 
+          used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such 
+          as the features section.</p>
+        <a href="./bookmark.html">
+          <button class="portfolio-btn">View Project</button>
+        </a>
+        <hr class="w-100">
+      </div>
     </div>
-    <div class="container flex">
-      <img
-      src="./images/portfolio/mobile/image-portfolio-bookmark.jpg"
-      alt="bookmark image"
-    />
-      <hr class="w-100">
-      <h2 class="about-header">Bookmark</h2>
-      <p class="about-p project-font">This project required me to build a fully responsive landing page to the designs provided. I 
-        used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such 
-        as the features section.</p>
-      <a href="./bookmark.html">
-        <button class="portfolio-btn">View Project</button>
-      </a>
-      <hr class="w-100">
+    <div class="container flex row-flex">
+      <div>
+        <img
+        class="insure-img"
+        src="./images/portfolio/mobile/image-portfolio-insure.jpg"
+        alt="insure image"
+      />
+      </div>
+      <div>
+        <hr class="w-100">
+        <h2 class="about-header">Insure</h2>
+        <p class="about-p project-font">This was a small project which mostly consisted of HTML and CSS. I built a fully-responsive 
+          landing page. The only JavaScript this project required was to enable the toggling of the 
+          mobile navigation.</p>
+        <a href="./insure.html">
+          <button class="portfolio-btn">View Project</button>
+        </a>
+        <hr class="w-100">
+      </div>
     </div>
-    <div class="container flex">
-      <img
-      src="./images/portfolio/mobile/image-portfolio-insure.jpg"
-      alt="insure image"
-    />
-      <hr class="w-100">
-      <h2 class="about-header">Insure</h2>
-      <p class="about-p project-font">This was a small project which mostly consisted of HTML and CSS. I built a fully-responsive 
-        landing page. The only JavaScript this project required was to enable the toggling of the 
-        mobile navigation.</p>
-      <a href="./insure.html">
-        <button class="portfolio-btn">View Project</button>
-      </a>
-      <hr class="w-100">
-    </div>
-    <div class="container flex">
-      <img
-      src="./images/portfolio/mobile/image-portfolio-fylo.jpg"
-      alt="fylo image"
-    />
-      <hr class="w-100">
-      <h2 class="about-header">Fylo</h2>
-      <p class="about-p project-font">This project was built in pure HTML and CSS. I had mobile and desktop designs to work to and 
-        built it so that it was fully-responsive. I took a mobile-first approach and used modern 
-        CSS like Flexbox and Grid for layout purposes.</p>
-      <a href="./fylo.html">
-        <button class="portfolio-btn">View Project</button>
-      </a>
-      <hr class="w-100">
+    <div class="container flex reverse-flex">
+      <div>
+        <img
+        class="fylo-img"
+        src="./images/portfolio/mobile/image-portfolio-fylo.jpg"
+        alt="fylo image"
+      />
+      </div>
+      <div>
+        <hr class="w-100">
+        <h2 class="about-header">Fylo</h2>
+        <p class="about-p project-font">This project was built in pure HTML and CSS. I had mobile and desktop designs to work to and 
+          built it so that it was fully-responsive. I took a mobile-first approach and used modern 
+          CSS like Flexbox and Grid for layout purposes.</p>
+        <a href="./fylo.html">
+          <button class="portfolio-btn">View Project</button>
+        </a>
+        <hr class="w-100">
+      </div>
     </div>
     <div class="container flex">
       <h2 class="interested-sec">Interested in doing a project together?</h2>
