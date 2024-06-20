@@ -385,7 +385,10 @@ form, .form-div input, .form-div textarea {
 
   .interested-sec {
     text-align: start;
-    font-size: 40px;
+  }
+
+  .container-fluid {
+    padding: 0;
   }
 
   .portfolio-btn {
@@ -432,6 +435,7 @@ form, .form-div input, .form-div textarea {
   .row-flex, .reverse-flex {
     gap: 69px;
     margin-top: 80px;
+    padding: 0;
   }
   
   .row-flex {
@@ -462,12 +466,16 @@ form, .form-div input, .form-div textarea {
   .image-container, .about-sec {
     width: 100%;
   }
-
-  .project-font {
-    margin: 0;
-  }
   
   .about-sec {
     padding: 0;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .active-page {
+    color: #5FB4A2!important;
   }
 }
