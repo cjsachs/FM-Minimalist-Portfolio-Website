@@ -132,6 +132,10 @@ footer div a {
   margin: 32px 0;
 }
 
+.manage-img, .bookmark-img, .insure-img, .fylo-img {
+  width: 100%;
+}
+
 .social-div {
   margin-top: 40px;
 }
@@ -421,6 +425,15 @@ form, .form-div input, .form-div textarea {
     margin-right: 42px;
   }
 
+  .flex {
+    margin: 0;
+  }
+
+  .row-flex, .reverse-flex {
+    gap: 69px;
+    margin-top: 80px;
+  }
+  
   .row-flex {
     flex-direction: row;
   }
@@ -429,7 +442,32 @@ form, .form-div input, .form-div textarea {
     flex-direction: row-reverse;
   }
 
+  
   .manage-img {
-    content: url(./images/portfolio/tablet/image-portfolio-manage.jpg);
+    content: url(./images/portfolio/tablet/image-portfolio-manage@2x.jpg);
+  }
+  
+  .bookmark-img {
+    content: url(./images/portfolio/tablet/image-portfolio-bookmark@2x.jpg);
+  }
+
+  .insure-img {
+    content: url(./images/portfolio/tablet/image-portfolio-insure@2x.jpg);
+  }
+
+  .fylo-img {
+    content: url(./images/portfolio/tablet/image-portfolio-fylo@2x.jpg);
+  }
+
+  .image-container, .about-sec {
+    width: 100%;
+  }
+
+  .project-font {
+    margin: 0;
+  }
+  
+  .about-sec {
+    padding: 0;
   }
 }
